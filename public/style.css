@@ -1,12 +1,32 @@
 .main-container {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  margin-top: 20px; }
+  .main-container .title {
+    text-align: center;
+    font-size: 50px;
+    color: #646464; }
+  .main-container .search-field {
+    font-size: 30px;
+    text-indent: 10px;
+    padding: 10px 0;
+    background-color: #f0f0f0;
+    border: 1px solid #c8c8c8; }
+  .main-container .list {
+    background-color: white;
+    height: 70vh;
+    overflow-y: scroll; }
+    .main-container .list .country-element {
+      font-size: 30px;
+      padding: 10px;
+      border: 1px solid #c8c8c8;
+      color: #646464; }
 
 li {
   list-style-type: none; }
 
 .container {
-  margin: auto;
-  max-height: 50%; }
+  margin: 10px auto;
+  width: 70%; }
 
 /*# sourceMappingURL=style.css.map */

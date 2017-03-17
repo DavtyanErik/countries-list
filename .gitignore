@@ -1,3 +1,5 @@
 node_modules
 npm-debul.log
 public/bundle.js
+style.sassc
+style.css.map
